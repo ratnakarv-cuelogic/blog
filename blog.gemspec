@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = Blog::VERSION
   s.authors     = ["Ratnakar"]
   s.email       = ["ratnakar.vanapalli@cuelogic.co.in"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Blog."
-  s.description = "TODO: Description of Blog."
+  s.homepage    = "https://github.com/ratnakarv-cuelogic/blog"
+  s.summary     = "Rails Engine"
+  s.description = "Rails Engine"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
@@ -19,5 +19,5 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", "~> 4.2.0"
 
-  s.add_development_dependency "sqlite3"
+  s.add_development_dependency "pg"
 end
